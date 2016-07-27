@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<title>Fahrenheit 451</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+.city {display:none;}
+</style>
+<body>
+
+<nav class="w3-sidenav w3-black w3-card-2" style="width:130px">
+  <div class="w3-container">
+    <h5>Menu</h5>
+  </div>
+    <a href="#" class="tablink" onclick="openCity(event, 'about')">&Uuml;ber 451</a>
+    <a href="#" class="tablink" onclick="openCity(event, 'cover')">Cover</a>
+    <a href="#" class="tablink" onclick="openCity(event, 'review')">Zusammenfassung</a>
+    <a href="#" class="tablink" onclick="openCity(event, 'figures')">Figuren</a>
+    <a href="#" class="tablink" onclick="openCity(event, 'censor')">Zensur</a>
+    <a href="#" class="tablink" onclick="openCity(event, 'thema')">Themen</a>
+    <a href="#" class="tablink" onclick="openCity(event, 'LuSF')">Literatur und Science Fiktion</a>
+</nav>
+    
+    <img src="451.png" id="errorImg" class="error">
+
+<div style="margin-left:130px">
+
+    <div id="thema" class="w3-container city w3-animate-left">
+        <h2>Themen</h2>
+    </div>
+    
+    <div id="LuSF" class="w3-container city w3-animate-left">
+        <h2>Literatur und Science Fiktion</h2>
+    </div>
+    
+    <div id="censor" class="w3-container city w3-animate-left">
+        <h2>Zensur</h2>
+        <p><a href="http://ieg-ego.eu/de/threads/europaeische-medien/zensur-und-pressefreiheit-in-europa" style="color: red;">Europ&auml;ische Geschichte Online</a>: Zensur und Pressenfreihet</p>
+        <p><a href="http://ieg-ego.eu/de/threads/europaeische-medien/zensur-und-pressefreiheit-in-europa" style="color: red;">Lemo</a>: Die Ausstellung:"Entartete Kunst"</p>
+        <p><a href="http://ieg-ego.eu/de/threads/europaeische-medien/zensur-und-pressefreiheit-in-europa" style="color: red;">Europ&auml;ische Geschichte Online</a>: Zensur und Pressenfreihet</p>
+        
+    </div>
+    
+    <div id="about" class="w3-container city w3-animate-left">
+        <h2 style="text-align: center;">&Uuml;ber den Error 451</h2>
+        <p style="font-weight: bold;">Entstehung:</p>
+        <p>Der <a href="https://de.wikipedia.org/wiki/HTTP-Statuscode" style="color: red;">HTTP Error</a> 451 ersetzt den HTTP Error 404 auf Internetseiten die wegen Zensur oder Legalen Gr&uuml;nden aus dem Internet genommen wurden.Erstmals wurde der Error Code bei der <a href="https://de.wikipedia.org/wiki/Internet_Engineering_Task_Force" style="color: red;">IETF</a> von dem ehemaligen Google Mitarbeiter <a href="https://de.wikipedia.org/wiki/Tim_Bray" style="color: red;">Tim Bray</a> im Juni 2012 eingereicht offiziel anerkannt wurde er am 17. Dezember 2015 am ende seines Vorschlags schrieb Bray &#39;&#39;Thanks also to Ray Bradbury&#39;&#39; eine Anspielung an dessen Roman Fahrenheit 451.</p>
+        <img src="Error451.png" class="abouterror">
+        <p style="font-weight: bold;">Nutzen:</p>
+        <p>Weil das Internet in unserem Alltag eine immer gr&ouml;&szlig;ere Rolle spielt gibt es unz&auml;hlige gr&uuml;nde f&uuml;r das abschalten einer Website.Ein Gericht k&ouml;nnte zum Beispiel die Schlie&szlig;ung einer 3D Druck Vorlagen Seite beantragen, weil sie Patente, Warenzeichen oder Copyright verletzt.Eine Regierungsbeh&ouml;rde k&ouml;nnte sich dazu entschieden Torrent oder Streaming Seiten zu schlie&szlig;en oder das Europ&auml;ische &#39;&#39;<a href="https://de.wikipedia.org/wiki/Recht_auf_Vergessenwerden" style="color: red;">right to be forgotten</a>&#39;&#39; k&ouml;nnte ausgeweitet werden was viele Webseiten betreffen k&ouml;nnte.Egal aus welchem Grund Website geschlossen werden in einem Land in dem die B&uuml;rger wenigstens etwas Freiheit haben, m&uuml;ssen die Leute wissen wann die Regierung den Zugriff zu Informationen zensiert. Dieses Problem wird durch den Error 451 behoben.</p>
+        <p>[Ian Paul, <a href="http://www.pcworld.com/article/3017553/internet/error-451-is-the-new-ray-bradbury-inspired-http-code-for-online-censorship.html" style="color: red;">PCWorld</a>]</p>
+    </div>
+    
+    <div id="cover" class="w3-container city w3-animate-left">
+        <h1 style="text-align: center;">Cover</h1>
+        <img src="orte.png" class="covers">
+        <img src="orte2.png" class="covers">
+        <img src="feuer.png" class="covers">
+        <img src="witschaft.png" class="covers">
+        <img src="MedienKunst.png" class="covers">
+        <img src="KriegMilit%C3%A4r.png" class="covers">
+        <img src="probleme.png" class="covers">
+        <img src="sarah.png" class="covers">
+        <img src="politischeSysteme.png" class="covers">
+    </div>
+    
+    <div id="figures" class="w3-container city w3-animate-left">
+        <h2>Figuren</h2>
+        <img src="Clarisse.jpg" class="clarisse">
+    </div>
+
+  <div id="review" class="w3-container city w3-animate-left">
+      
+     
+      
+      <video controls class="ReviewVideo">
+        <source src="BeispielVideo.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+
+      <h2>Fahrenheit 451</h2>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
+      
+     <a href="https://www.amazon.de/Fahrenheit-451-Novel-Ray-Bradbury/dp/1451673310">
+      <button class="slide">&nbsp;</button>
+      </a>
+      </div>
+ 
+  </div>
+
+  
+<script>
+function openCity(evt, cityName) {
+    
+    document.getElementById("errorImg").src = "clear.png"; 
+    document.body.style.background = "white";
+
+    
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+
+    
+    
+}
+</script>
+
+    
+  
+
+</body>
+</html>
+
