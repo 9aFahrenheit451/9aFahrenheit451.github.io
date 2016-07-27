@@ -12,7 +12,7 @@ img{margin-bottom:-5px}a{color:inherit}
 
 .w3-sidenav a{text-decoration:none!important}
 
-.w3-sidenav{height:100%;width:250px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.w3-sidenav{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
 .w3-sidenav a{padding:4px 2px 4px 16px}
 .w3-sidenav a:hover{background-color:#ccc}
 .w3-sidenav a,.w3-dropnav a{display:block}
