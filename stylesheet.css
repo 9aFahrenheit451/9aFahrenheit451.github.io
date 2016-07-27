@@ -41,9 +41,17 @@ img{margin-bottom:-5px}a{color:inherit}
         .clarisse{
             position: relative;
             height: auto;
-            width: 30%;
+            width: 49%;
             
         }
+
+.both{
+            position: relative;
+            height: auto;
+            width: 100%;
+            
+        }
+        
      
         .boxed {
             
